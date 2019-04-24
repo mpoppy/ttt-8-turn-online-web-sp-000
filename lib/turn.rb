@@ -24,7 +24,7 @@ def move(board, index, char = "X")
   board[index] = char
 end
 
-def turn()
+def turn(board)
 "Please enter 1-9:"
-index = gets.strip
+i
 end
