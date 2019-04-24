@@ -16,5 +16,9 @@ def valid_move(board, index)
     false
 end
 
-def position_taken()
+def position_taken(board, index)
+  board[index] = index
+  if board[index] == " " || board[index] == "" || board[index] == nil
+    true
+  else false
 end
