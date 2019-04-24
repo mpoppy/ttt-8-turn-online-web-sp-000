@@ -30,7 +30,7 @@ def turn(board)
   user_input = input_to_index(input)
   if valid_move?(board, user_input)
   else
-    puts "please enter a valid move:"
+    puts "Please enter a valid move:"
     turn(board)
   end
 end
