@@ -26,5 +26,4 @@ end
 
 def turn(board)
 "Please enter 1-9:"
-i
 end
