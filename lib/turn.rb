@@ -31,6 +31,5 @@ def turn(board)
   if valid_move?(board, user_input)
   else
     puts "Please enter a valid move:"
-    turn(board)
   end
 end
