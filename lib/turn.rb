@@ -9,13 +9,9 @@ def display_board(board)
 end
 
 def valid_move?(board, index)
-  board[index] = index
-  if position_taken?(taken) == false
-    if board[index].between?(0,8)
-      true
-    else
-      false
-    end
+  if index.between?(1,9)
+  if !position_taken?(board,index)
+    true
   end
 end
 
